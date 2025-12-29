@@ -25,9 +25,51 @@
 //console.log(selectedFruits); 
 //console.log(fruits); 
 
-let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+//let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
 
-let selectedFruits = fruits.splice(1, 3);
+//let selectedFruits = fruits.splice(1, 3);
 
-console.log(selectedFruits); 
-console.log(fruits); 
+//console.log(selectedFruits); 
+//console.log(fruits);
+
+const marvel_heroes = ["ironman", "captain america", "spiderman"]
+const dc_heroes = ["superman", "batman", "aquaman"]
+
+//marvel_heroes.push(dc_heroes)
+
+//console.log(marvel_heroes);
+
+//const all_heroes = marvel_heroes.concat(dc_heroes)
+// console.log(all_heroes);
+
+
+//const all_new_heroes =[...dc_heroes,...marvel_heroes]
+//console.log(all_new_heroes);
+
+
+//let score1 = 100
+//let score2 = 200
+//let score3 = 400
+
+//console.log(Array.of (score1,score2,score3));
+
+
+//let a = [1, 2, 3];
+//let b = "Hello";
+
+//console.log(Array.isArray(b)); 
+
+//console.log(Array.isArray(a));
+
+//if (Array.isArray(a)) {
+//  console.log("Yes, this is an array");
+//}
+
+
+let name = "Anmol";
+let letters = Array.from(name);
+
+console.log(letters);
+
+
+
