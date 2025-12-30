@@ -12,8 +12,15 @@
 // const result = addTwoNumbers(245,5)
 //console.log("result :" ,result);
 
-function newLoggedIn (username)
-{
-return`${username} just logged in`
+// function newLoggedIn (username)
+// {
+// return`${username} just logged in`
+// }
+// console.log(newLoggedIn("anmol"));
+
+function calculateCartPrice(...num1){
+    return num1
 }
-console.log(newLoggedIn("anmol"));
+
+console.log(calculateCartPrice(200,500,700,456));
+
