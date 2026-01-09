@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-[#212121] flex justify-center  ">
+    <div class="card h-100 w-150 border-2 flex flex-col justify-center items-center gap-2 rounded-2xl  bg-amber-50">
+        <p class="text-2xl"> try and guess a random number between 1 to 100 </p>
+        <p class="text-2xl"> you have 10 attempt guess a right number</p>
+        <h1 class="font-bold text-3xl">Guess a Number</h1>
+<div class="form">
+    <input type="text" id="guess-field" class="border-2 rounded-lg p-2" />
+    <button id="btn" class="bg-blue-500 text-white p-2 rounded-lg">Guess</button>
+   
+</div>
+<div class="privious">
+    <p class="text-2xl">Privious Guesses :  <span class="guesses"></span></p>
+    <p class="text-2xl">Remaning Guesses :  <span class="remaining">10</span></p>
+</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
